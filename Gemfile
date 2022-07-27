@@ -25,6 +25,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'mysql2'
   gem 'web-console', '4.0.2'
   gem 'listen', '3.2.1'
   gem 'spring', '2.1.1'
