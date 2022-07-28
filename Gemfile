@@ -14,10 +14,11 @@ gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.4.1'
 gem 'puma'
 gem 'sass-rails', '6.0.0'
-gem 'webpacker', '4.2.2'
+gem 'webpacker'
 gem 'turbolinks', '5.2.1'
 gem 'jbuilder', '2.10.0'
- gem 'bootsnap', '1.9.3'
+gem 'bootsnap', '1.9.3'
+gem 'psych', '< 4' 
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
