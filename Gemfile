@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+ruby "~> 2.6.8"
+
 gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 gem 'rails', '6.0.3.4'
@@ -18,7 +20,7 @@ gem 'webpacker'
 gem 'turbolinks', '5.2.1'
 gem 'jbuilder', '2.10.0'
 gem 'bootsnap', '1.9.3'
-gem 'psych', '< 4' 
+gem 'psych', '< 4'
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
