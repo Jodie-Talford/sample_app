@@ -18,3 +18,10 @@ production:
   username: root
   password:
   host: localhost
+
+users:
+  adapter: mysql2
+  database: users
+  username: root
+  password:
+  host: localhost
