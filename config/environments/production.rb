@@ -62,6 +62,8 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.action_mailer.perform_deliveries = true
+
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = 'https://still-chamber-57437.herokuapp.com/'
@@ -70,8 +72,8 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
-    :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_PASSWORD'],
+    :user_name => ENV['app271119131@heroku.com'],
+    :password => ENV['e8axdmia5291'],
     :domain => 'heroku.com',
     :enable_starttls_auto => true
   }
