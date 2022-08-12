@@ -39,7 +39,7 @@ Rails.application.configure do
   #config.active_storage.service = :local
 
   # Store uploaded files on Amazon AWS.
-  config.active_storage.service = :amazon
+  Rails.config.active_storage.service = :amazon
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
